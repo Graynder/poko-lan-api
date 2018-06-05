@@ -1,0 +1,29 @@
+{
+  "name": "poko-lan",
+  "version": "1.0.0-alpha",
+  "description": "Jeux de poker en lan",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "devServer": "nodemon -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graynder/poko-lan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Graynder/poko-lan/issues"
+  },
+  "homepage": "https://github.com/Graynder/poko-lan#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "serve-static": "^1.13.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.12.1"
+  }
+}
